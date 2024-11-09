@@ -45,7 +45,7 @@ HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_Weekends\n\
 ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/JeffreySama>Jҽϝϝɾҽყ ʂαɱα</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Anime_Weekends>ᴀɴɪᴍᴇ ᴡᴇᴇᴋᴇɴᴅs</a>\n◈ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Weekends>ᴏɴɢᴏɪɴɢ ᴡᴇᴇᴋᴇɴᴅs</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/JeffreySama>Jҽϝϝɾҽყ ʂαɱα</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ᴀʀᴀ ᴀʀᴀ... {first}! ❤\n\nɪ  ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @Ongoing_Weekends")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ᴀʀᴀ ᴀʀᴀ... {first}! ❤\n\nɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @Ongoing_Weekends")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6266529037").split()):
